@@ -1,3 +1,5 @@
+[report summary nypost.pdf](https://github.com/FrontEndFoxes/school-curriculum/files/6331776/report.summary.nypost.pdf)
+[report summary nypost.pdf](https://github.com/FrontEndFoxes/school-curriculum/files/6331780/report.summary.nypost.pdf)
 # Analyze a non-accessible web site
 
 ## Instructions
