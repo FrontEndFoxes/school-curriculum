@@ -208,7 +208,7 @@ At this point, we need to start populating our UI with some data. First thing we
 
 How cute! 🐶
 
-But the idea is to make this link dynamic, so it's time to create your first Vue variable. First, you have to add `data()` to your Vue component. This function should return an object of our Vue variables. Let's create one in the `<script>` block. Overwrite the current `<script>` block in `App.vue`:
+But the idea is to make this link dynamic, so it's time to create your first Vue variable. First, you have to add `data()` to your Vue component. This function should return an object of our Vue variables. Let's create one with the `<script>` block. To complete this add the `<script>` block to the bottom of `App.vue`: After the `</template>`
 
 ```js
 <script>
