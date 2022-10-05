@@ -20,7 +20,7 @@ The artwork was hand drawn by [Jen Looper](http://jenlooper.com) using Procreate
 
 ## Deploy your Terrarium
 
-You can deploy, or publish your terrarium to the web using Netlify or GitHub pages. 
+You can deploy, or publish your terrarium to the web using a free Web hosting platform. Current examples are [Netlify](https://www.netlify.com/) or [GitHub pages](https://pages.github.com/). 
 
 
 
