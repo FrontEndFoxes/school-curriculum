@@ -1,4 +1,4 @@
-[
+
 	{
 		"title": "Sviluppo Web per Principianti: Quiz",
 		"complete": "Congratulazioni, hai completato il quiz!",
@@ -241,7 +241,7 @@
 							},
 							{
 								"answerText": "Cleanhouse",
-								"isCorrect": "true"
+								"isCorrect": "false"
 							}
 						]
 					},
@@ -2506,4 +2506,4 @@
 			}
 		]
 	}
-]
+

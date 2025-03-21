@@ -1,4 +1,4 @@
-[
+
 	{
 		"title": "비기너를 위한 웹 개발: 퀴즈",
 		"complete": "축하합니다! 퀴즈를 완료하셨습니다.!",
@@ -241,7 +241,7 @@
 							},
 							{
 								"answerText": "Cleanhouse",
-								"isCorrect": "true"
+								"isCorrect": "false"
 							}
 						]
 					},
@@ -2506,4 +2506,4 @@
 			}
 		]
 	}
-]
+

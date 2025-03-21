@@ -1,4 +1,4 @@
-[
+
 	{
 		"title": "Pengembangan Web untuk Pemula: Kuis",
 		"complete": "Selamat, Anda telah menyelesaikan kuisnya!",
@@ -241,7 +241,7 @@
 							},
 							{
 								"answerText": "Cleanhouse",
-								"isCorrect": "true"
+								"isCorrect": "false"
 							}
 						]
 					},
@@ -2506,4 +2506,3 @@
 			}
 		]
 	}
-]

@@ -1,0 +1,30 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import QuizLinks from "../../components/QuizLinks.astro";
+import type { QuizData } from "../../types/quiz";
+
+export function getStaticPaths() {
+  return [
+    { params: { lang: "en" } },
+    { params: { lang: "hi" } },
+    { params: { lang: "id" } },
+    { params: { lang: "it" } },
+    { params: { lang: "ja" } },
+    { params: { lang: "ko" } },
+  ];
+}
+
+const { lang } = Astro.params;
+
+const quizData: QuizData = await import(`../../i18n/${lang}.json`);
+---
+
+<Layout title={quizData.title} lang={lang}>
+  <div>
+    {
+      quizData.quizzes.map((quiz) => (
+        <QuizLinks id={quiz.id} title={quiz.title} lang={lang} />
+      ))
+    }
+  </div>
+</Layout>

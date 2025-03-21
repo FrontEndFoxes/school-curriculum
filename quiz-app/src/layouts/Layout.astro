@@ -1,0 +1,29 @@
+---
+import Header from "../components/Header.astro";
+import { getTranslation, type Language } from "../i18n/translations";
+
+interface Props {
+  title?: string;
+  lang: string;
+}
+
+const { title = "Quiz App", lang } = Astro.props;
+const t = getTranslation(lang as Language);
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body class="min-h-screen bg-gray-100">
+    <Header lang={lang} title={t.title} />
+    <main class="max-w-7xl mx-auto p-4">
+      <slot />
+    </main>
+  </body>
+</html>

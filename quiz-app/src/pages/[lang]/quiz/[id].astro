@@ -1,0 +1,42 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Quiz from '../../../components/Quiz';
+import type { QuizData } from '../../../types/quiz';
+import { langs } from "../../../i18n/translations";
+
+
+export async function getStaticPaths() {
+
+  const paths = [];
+
+  for (const lang of langs) {
+    const quizData: QuizData = await import(`../../../i18n/${lang}.json`);
+    for (const quiz of quizData.quizzes) {
+      paths.push({
+        params: { lang, id: quiz.id.toString() },
+        props: { quizData },
+      });
+    }
+  }
+
+  return paths;
+}
+
+const { lang, id } = Astro.params;
+const { quizData } = Astro.props;
+
+const quiz = quizData.quizzes.find(q => q.id.toString() === id);
+---
+
+<Layout title={quiz?.title || ''} lang={lang}>
+  {quiz && (
+    <Quiz
+      client:load
+      questions={quiz.quiz}
+      title={quiz.title}
+      lang={lang}
+      completeText={quizData.complete}
+      errorText={quizData.error}
+    />
+  )}
+</Layout>

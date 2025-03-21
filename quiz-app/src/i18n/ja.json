@@ -1,4 +1,5 @@
-[
+
+
 	{
 		"title": "初心者のための Web 開発: クイズ",
 		"complete": "おめでとうございます! クイズをクリアしました。",
@@ -241,7 +242,7 @@
 							},
 							{
 								"answerText": "Cleanhouse",
-								"isCorrect": "true"
+								"isCorrect": "false"
 							}
 						]
 					},
@@ -2506,4 +2507,4 @@
 			}
 		]
 	}
-]
+

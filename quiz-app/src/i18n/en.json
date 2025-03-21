@@ -1,4 +1,5 @@
-[
+
+
 	{
 		"title": "Web Development for Beginners: Quizzes",
 		"complete": "Congratulations, you completed the quiz!",
@@ -241,7 +242,7 @@
 							},
 							{
 								"answerText": "Cleanhouse",
-								"isCorrect": "true"
+								"isCorrect": "false"
 							}
 						]
 					},
@@ -2506,4 +2507,4 @@
 			}
 		]
 	}
-]
+

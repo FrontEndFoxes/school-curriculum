@@ -1,0 +1,43 @@
+---
+interface Props {
+  lang: string;
+  title: string;
+}
+
+const { lang, title } = Astro.props;
+
+import { languages } from "../i18n/translations";
+---
+
+<nav class="bg-white shadow-md p-4">
+  <div class="max-w-7xl mx-auto flex justify-between items-center">
+    <a href={`/${lang}`} class="text-xl font-bold text-indigo-600">
+      {title}
+    </a>
+    <div class="space-x-4">
+      <select
+        class="border border-gray-300 rounded px-2 py-1"
+        value={lang}
+        
+      >
+        {
+          Object.entries(languages).map(([languageCode, label]) => (
+            
+            <option selected={languageCode == lang} value={languageCode}>
+              {label}
+            </option>
+        
+      ))
+        }
+      </select>
+      <script is:inline>
+        document.querySelector('select').addEventListener('change', (event) => {
+          const lang = event.target.value;
+          const currentPath = window.location.pathname.replace(/^\/[a-z]{2}(\/|$)/, "/");
+
+          window.location.href = `/${lang}${currentPath}`;
+        });
+      </script>
+    </div>
+  </div>
+</nav>

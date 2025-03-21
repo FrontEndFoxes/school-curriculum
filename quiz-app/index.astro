@@ -1,0 +1,10 @@
+---
+export async function getStaticPaths() {
+  return [];
+}
+
+export async function get({ redirect }) {
+  // Redirect to `/en` by default
+  return redirect("/en");
+}
+---
