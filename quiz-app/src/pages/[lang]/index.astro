@@ -1,7 +1,5 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import QuizLinks from "../../components/QuizLinks.astro";
-import type { QuizData } from "../../types/quiz";
 
 export function getStaticPaths() {
   return [
@@ -16,15 +14,73 @@ export function getStaticPaths() {
 
 const { lang } = Astro.params;
 
-const quizData: QuizData = await import(`../../i18n/${lang}.json`);
+const curricula = [
+  { id: "ai", title: "Artificial Intelligence" },
+  { id: "ds", title: "Data Science" },
+  { id: "web", title: "Web Development" },
+  { id: "iot", title: "Internet of Things" },
+  { id: "ml", title: "Machine Learning" },
+];
 ---
 
-<Layout title={quizData.title} lang={lang}>
+<Layout title="Quizzes" lang={lang}>
   <div>
-    {
-      quizData.quizzes.map((quiz) => (
-        <QuizLinks id={quiz.id} title={quiz.title} lang={lang} />
-      ))
-    }
+    <div class="curriculum-cards">
+      {
+        curricula.map((curriculum) => (
+          <a href={`/${lang}/${curriculum.id}`} class="card">
+            <h3>{curriculum.title}</h3>
+          </a>
+        ))
+      }
+    </div>
   </div>
 </Layout>
+
+<style>
+  .curriculum-cards {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .card {
+    display: block;
+    padding: 1.5rem;
+    width: 250px;
+    height: 150px;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    box-shadow:
+      0 4px 6px rgba(0, 0, 0, 0.1),
+      0 1px 3px rgba(0, 0, 0, 0.06);
+    transition:
+      transform 0.3s ease,
+      box-shadow 0.3s ease;
+  }
+
+  .card h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .card:hover {
+    transform: translateY(-8px);
+    box-shadow:
+      0 10px 15px rgba(0, 0, 0, 0.2),
+      0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .card:active {
+    transform: translateY(0);
+    box-shadow:
+      0 4px 6px rgba(0, 0, 0, 0.1),
+      0 1px 3px rgba(0, 0, 0, 0.06);
+  }
+</style>

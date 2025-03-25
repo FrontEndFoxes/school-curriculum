@@ -1,0 +1,2199 @@
+{
+  "title": "Ciencia de Datos para Principiantes: Cuestionarios",
+  "complete": "¡Felicidades, completaste el cuestionario!",
+  "error": "Lo siento, inténtalo de nuevo.",
+  "quizzes": [
+    {
+      "id": 16,
+      "title": "Visualización de cantidades - Cuestionario previo",
+      "quiz": [
+        {
+          "questionText": "Una biblioteca útil para las visualizaciones de datos es:",
+          "answerOptions": [
+            {
+              "answerText": "Matplotlib",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Matchartlib",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Matgraphtlib",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Puede visualizar las cantidades utilizando:",
+          "answerOptions": [
+            {
+              "answerText": "gráficos de dispersión",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "gráfico líneas",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "las dos respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "Los gráficos de barras son útiles para visualizar la cantidad",
+          "answerOptions": [
+            {
+              "answerText": "verdadero",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "falso",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Visualización de cantidades - Cuestionario final",
+      "quiz": [
+        {
+          "questionText": "Puede analizar las tendencias a lo largo del tiempo utilizando un:",
+          "answerOptions": [
+            {
+              "answerText": "gráfico de líneas",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "gráfico de barras",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "gráfico circular",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Puede comparar valores utilizando este tipo de gráfico:",
+          "answerOptions": [
+            {
+              "answerText": "gráfico de líneas",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "gráfico de barras",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "las dos respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "Mostra cómo se relacionan las partes con un todo utilizando este tipo de gráfico:",
+          "answerOptions": [
+            {
+              "answerText": "líneas",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "columnas",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "circular",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Visualización de distribuciones - Cuestionario previo",
+      "quiz": [
+        {
+          "questionText": "Los histogramas son en general tipos de gráficos más sofisticados que los de dispersión",
+          "answerOptions": [
+            {
+              "answerText": "verdaderos",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "falso",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Puede visualizar las distribuciones utilizando este tipo de gráfico:",
+          "answerOptions": [
+            {
+              "answerText": "gráfico de dispersión",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "gráfico circular",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "gráfico de columnas",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Esta biblioteca es especialmente útil para construir histogramas",
+          "answerOptions": [
+            {
+              "answerText": "TensorFlow",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "PyTorch",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Matplotlib",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Visualización de distribuciones - Cuestionario final",
+      "quiz": [
+        {
+          "questionText": "Los histogramas pueden utilizarse para analizar este tipo de datos:",
+          "answerOptions": [
+            {
+              "answerText": "textual",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "numérico",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "las dos respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "En un histograma, un 'bin' se refiere a:",
+          "answerOptions": [
+            {
+              "answerText": "una clase de datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "una agrupación de datos",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "datos desechables",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": " Para construir un gráfico de densidad suave, utilice esta biblioteca:",
+          "answerOptions": [
+            {
+              "answerText": "Seaborn",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Matplotlib",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "PyTorch",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Visualización de las proporciones - Cuestionario previo",
+      "quiz": [
+        {
+          "questionText": "Para visualizar las proporciones, utilice este tipo de gráfico:",
+          "answerOptions": [
+            {
+              "answerText": "circular",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "waffle",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "ninguna de las respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "Una herramienta gratuita para visualizar sus datos es:",
+          "answerOptions": [
+            {
+              "answerText": "Popculator",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Graphculator",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Charticulator",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "Utiliza `plt.pie` para mostrar un:",
+          "answerOptions": [
+            {
+              "answerText": "gráfico circular",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "gráfico de gofres",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "gráfico de dispersión",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Visualización de las proporciones - Cuestionario final",
+      "quiz": [
+        {
+          "questionText": "Puedes editar los colores de tus gráficos de gofres",
+          "answerOptions": [
+            {
+              "answerText": "verdadero",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "falso",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Utiliza esta biblioteca para construir gráficos de gofres:",
+          "answerOptions": [
+            {
+              "answerText": "edwaffle",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "pywaffle",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "yumwaffle",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "En un gráfico de rosca, construye el círculo central utilizando esta sintaxis:",
+          "answerOptions": [
+            {
+              "answerText": "plt.Oval",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "plt.Circle",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "plt.Edit",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Visualización de las relaciones - Cuestionario previo",
+      "quiz": [
+        {
+          "questionText": "Utiliza esta biblioteca para visualizar las relaciones:",
+          "answerOptions": [
+            {
+              "answerText": "Seaborn",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Merborn",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Reborn",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Utiliza la función `relplot` de Seaborn para visualizar",
+          "answerOptions": [
+            {
+              "answerText": "relaciones categóricas",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "relaciones estadísticas",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "relaciones especiales",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Al editar el tono de un gráfico de dispersión, puedes:",
+          "answerOptions": [
+            {
+              "answerText": "mostrar la distribución de un conjunto de datos",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "mostrar los colores de los artículos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "mostrar las temperaturas",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Visualización de las relaciones - Cuestionario final",
+      "quiz": [
+        {
+          "questionText": "Una forma más accesible de mostrar la distribución es:",
+          "answerOptions": [
+            {
+              "answerText": "Uso de la variación de la forma de los puntos de datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Empleo de la variación del tamaño de los puntos de datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Utilizando cualquiera de los respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "Utilizando la función `relplot` de Seaborn puedes ver una agregación de datos en torno a un gráfico de líneas",
+          "answerOptions": [
+            {
+              "answerText": "verdadero",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "falso",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Las cuadrículas de facetas ayudan a visualizar",
+          "answerOptions": [
+            {
+              "answerText": "una faceta determinada de los datos",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "valores atípicos en los datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "progresión en los datos",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Visualizaciones significativas - Cuestionario previo",
+      "quiz": [
+        {
+          "questionText": "Es relativamente fácil engañar a los usuarios editando gráficos",
+          "answerOptions": [
+            {
+              "answerText": "verdadero",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "falso",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "La selección del tipo de gráfico que se va a construir depende del tipo de datos que se tenga y de la historia que se cuente sobre ellos",
+          "answerOptions": [
+            {
+              "answerText": "verdadero",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "falso",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Para crear un gráfico engañoso, algunos creadores manipulan:",
+          "answerOptions": [
+            {
+              "answerText": "los colores del gráfico",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "los ejes X e Y",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "cualquiera de las respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Visualizaciones significativas - Cuestionario final",
+      "quiz": [
+        {
+          "questionText": "Asegúrate de que sus gráficos son:",
+          "answerOptions": [
+            {
+              "answerText": "accesibles",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "legibles",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "cualquiera de las respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "D3 es una excelente biblioteca de gráficos que se puede utilizar para crear:",
+          "answerOptions": [
+            {
+              "answerText": "animar visualizaciones",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "crear infografía",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "aprendizaje avanzado",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Asegurate que la legibilidad de tu gráfico mediante:",
+          "answerOptions": [
+            {
+              "answerText": "añadir etiquetas",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "agregando colores",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "alinear correctamente las etiquetas",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Bases de datos relacionales - Precuestionario",
+      "quiz": [
+        {
+          "questionText": "Una base de datos puede considerarse una tabla con columnas y filas",
+          "answerOptions": [
+            {
+              "answerText": "Verdadero",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Falso",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "La mayoría de las bases de datos se componen de",
+          "answerOptions": [
+            {
+              "answerText": "una tabla",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "una hoja de cálculo",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "muchas tablas",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "Puede evitar la duplicación de nombres de columnas si",
+          "answerOptions": [
+            {
+              "answerText": "creando muchas tablas",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "creando tablas con relaciones incorporadas",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "creando una única tabla gigante",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Bases de datos relacionales - Cuestionario final",
+      "quiz": [
+        {
+          "questionText": "Una clave primaria es",
+          "answerOptions": [
+            {
+              "answerText": "un valor utilizado para identificar una fila específica en una tabla",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "un valor utilizado para hacer que los valores sean únicos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "un valor utilizado para forzar la capitalización",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Una columna numérica 'ID' sería una buena clave primari",
+          "answerOptions": [
+            {
+              "answerText": "Verdadero",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Falso",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Una clave foránea se utiliza para",
+          "answerOptions": [
+            {
+              "answerText": "valores que hacen referencia a los identificadores en una tabla separada",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "valores que hacen referencia a las cadenas en una tabla separada",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "conservar los valores que cambian con el tiempo",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Bases de datos no relacionales - Precuestionario",
+      "quiz": [
+        {
+          "questionText": "Las hojas de cálculo son datos no relacionales",
+          "answerOptions": [
+            {
+              "answerText": "Verdadero",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Falso",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Identifica la diferencia entre datos no relacionales y relacionales.",
+          "answerOptions": [
+            {
+              "answerText": "Las bases de datos relacionales siempre contienen columnas y filas",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Algunos tipos de datos no relacionales utilizan columnas",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "No hay ninguna diferencia",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Qué significa NoSQL?",
+          "answerOptions": [
+            {
+              "answerText": "Nope SQL",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "No sólo SQL",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "No más SQL",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Bases de datos no relacionales - Cuestionario final",
+      "quiz": [
+        {
+          "questionText": "¿Cuál de estos NO es un tipo de NoSQL?",
+          "answerOptions": [
+            {
+              "answerText": "Object oriented",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Clave-valor",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Columnas",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Qué utilizas para hacer cálculos en las hojas de cálculo?",
+          "answerOptions": [
+            {
+              "answerText": "Python",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Alias",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Fórmulas",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "¿A qué otro tipo de datos no relacionales se parece un documento en una base de datos de documentos?",
+          "answerOptions": [
+            {
+              "answerText": "Claves",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Columnas",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "JSON",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Python - Precuestionario",
+      "quiz": [
+        {
+          "questionText": "Python es un buen lenguaje para",
+          "answerOptions": [
+            {
+              "answerText": "La ciencia de datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Princiantes",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Las dos respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "Python es un buen lenguaje para la Ciencia de Datos porque",
+          "answerOptions": [
+            {
+              "answerText": "tiene muchas bibliotecas",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "es un lenguaje rico pero sencillo",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Las dos respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "No puedes hacer ciencia de datos si no sabes Python",
+          "answerOptions": [
+            {
+              "answerText": "Verdadero",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Falso",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Python - Cuestionario final",
+      "quiz": [
+        {
+          "questionText": "¿Qué biblioteca utilizarías para representar una lista de notas de los alumnos en clase?",
+          "answerOptions": [
+            {
+              "answerText": "Numpy",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "SciPy",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Pandas",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "Tienes un DataFrame con una lista de alumnos, su número de grupo y la nota media. ¿Qué operación utilizarías para calcular la nota media por grupo?",
+          "answerOptions": [
+            {
+              "answerText": "average",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "avg",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "groupby",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "Tienes 100 amigos y quieres representar la información sobre la frecuencia con la que se hacen fotos entre ellos. ¿Qué estructura de datos utilizarías?",
+          "answerOptions": [
+            {
+              "answerText": "Numpy array",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Pandas DataFrame",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Pandas Series",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Preparación de datos - Precuestionario",
+      "quiz": [
+        {
+          "questionText": "¿Cuál de ellos forma parte del proceso de preparación de datos?",
+          "answerOptions": [
+            {
+              "answerText": "Validación del modelo",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Clasificación",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Limpieza de los datos",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Por qué es tan importante la preparación de los datos?",
+          "answerOptions": [
+            {
+              "answerText": "Hace que los modelos sean más precisos",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "No es importante",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Los ordenadores pueden ayudar a limpiar los datos",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Cuál es el objetivo de la limpieza de datos?",
+          "answerOptions": [
+            {
+              "answerText": "Corrección de problemas de formato",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Fijar los tipos de datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Las dos respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Preparación de los datos - Cuestionario final",
+      "quiz": [
+        {
+          "questionText": "Fusionar o unir dos conjuntos de datos en uno solo puede afectar a la coherencia de los datos",
+          "answerOptions": [
+            {
+              "answerText": "Verdadero",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Falso",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Qué es lo primero que hay que hacer ante la falta de datos?",
+          "answerOptions": [
+            {
+              "answerText": "Borrar los datos relacionados a esa falta",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Evaluar por qué falta",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Intenta rellenar los valores vacíos",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "La unión de dos o más conjuntos de datos puede provocar los siguientes problemas",
+          "answerOptions": [
+            {
+              "answerText": "Duplicados",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Un formato inconsistente",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Las dos respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Ciencia de los datos en la nube - Introducción - Cuestionario previo",
+      "quiz": [
+        {
+          "questionText": "¿Qué es la nube?",
+          "answerOptions": [
+            {
+              "answerText": "Una colección de bases de datos para almacenar big data.",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Un conjunto de servicios informáticos de pago por Internet.",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Una masa visible de partículas suspendidas en el aire..",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Qué es la computación en nube?",
+          "answerOptions": [
+            {
+              "answerText": "La prestación de servicios informáticos a través de Internet..",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Crear su propio centro de datos.",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Usar internet.",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Cuáles son las ventajas de la nube?",
+          "answerOptions": [
+            {
+              "answerText": "Flexibilidad, escalabilidad, fiabilidad y seguridad",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Flexibilidad, escalabilidad, variabilidad, seguridad",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Claridad, escalabilidad, fiabilidad, variabilidad",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Ciencia de datos en la nube - Introducción - Cuestionario final",
+      "quiz": [
+        {
+          "questionText": "¿Cuál NO es necesariamente una buena razón para elegir la nube?",
+          "answerOptions": [
+            {
+              "answerText": "Uso de servicios de aprendizaje automático e inteligencia de datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Procesamiento de grandes cantidades de datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Almacenamiento de datos gubernamentales sensibles/confidenciales",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "¿De qué manera utilizan los científicos de datos la nube?",
+          "answerOptions": [
+            {
+              "answerText": "Tareas de infraestructura",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Almacenamiento de grandes cantidades de datos",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Configurar las opciones de red",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Qué servicio de computación en nube proporciona acceso a aplicaciones de software sin necesidad de mantener el software?",
+          "answerOptions": [
+            {
+              "answerText": "Infraestructura como servicio",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Plataforma como servicio",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Software como servicio",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Ciencia de datos en la nube - Low-Code",
+      "quiz": [
+        {
+          "questionText": "Una de las ventajas de utilizar Jupyter Notebooks es que se pueden crear rápidamente prototipos de modelos.",
+          "answerOptions": [
+            {
+              "answerText": "Verdadero",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Falso",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Por qué un científico de datos utilizaría Azure Machine Learning?",
+          "answerOptions": [
+            {
+              "answerText": "Para ahorrar tiempo en la exploración y el preprocesamiento de datos.",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Para producir modelos precisos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Las dos respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "No es necesario tener experiencia programando para utilizar Azure ML.",
+          "answerOptions": [
+            {
+              "answerText": "Verdadero",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Falso, programar siempre es necesario",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Ciencia de datos en la nube - Low-Code - Cuestionario final",
+      "quiz": [
+        {
+          "questionText": "¿Qué hay que crear antes de acceder a Azure ML Studio?",
+          "answerOptions": [
+            {
+              "answerText": "Un espacio de trabajo",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Una instancia de proceso",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Un cluster",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Cuáles de las siguientes tareas son compatibles con el ML automatizado?",
+          "answerOptions": [
+            {
+              "answerText": "Creación de imágenes",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Clasificación",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Generación de lenguaje natural",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿En qué caso necesitas la GPU en lugar de la CPU?",
+          "answerOptions": [
+            {
+              "answerText": "Cuando se tienen datos tabulares",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Cuando tengas suficiente dinero para permitírtelo",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Cuando trabajas con Deep Learning",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Ciencia de datos en la nube - Azure",
+      "quiz": [
+        {
+          "questionText": "¿Cuál de ellos se vería afectado por el aumento del tamaño de la agrupación?",
+          "answerOptions": [
+            {
+              "answerText": "Capacidad de respuesta",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Coste",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Rendimiento del modelo",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Cuál es la ventaja de utilizar herramientas de bajo código?",
+          "answerOptions": [
+            {
+              "answerText": "No se requiere experiencia en código",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Etiquetar automáticamente el conjunto de datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Mayor seguridad del modelo",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Qué es AutoML?",
+          "answerOptions": [
+            {
+              "answerText": "Una herramienta para automatizar el preprocesamiento de datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Una herramienta para automatizar el despliegue de modelos",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Las dos respuestas anteriores",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Ciencia de datos en la nube - Azure - Cuestionario final",
+      "quiz": [
+        {
+          "questionText": "¿Cuál es la razón para crear una AutoMLConfig?",
+          "answerOptions": [
+            {
+              "answerText": "Es donde se dividen los datos de entrenamiento y de prueba",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Es donde se especifica el modelo a entrenar",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Proporciona todos los detalles de su experimento AutoML",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Cuál de las siguientes métricas es soportada por Automated ML para una tarea de clasificación?",
+          "answerOptions": [
+            {
+              "answerText": "Precisión",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "r2_score",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "normalized_root_mean_error",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Cuál NO es una ventaja de utilizar el SDK?",
+          "answerOptions": [
+            {
+              "answerText": "Puede utilizarse para automatizar múltiples tareas y ejecuciones",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Facilita la edición programada de las ejecuciones",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Puede utilizarse a través de una interfaz gráfica de usuario",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Ciclo de vida de la ciencia de datos - Introducción Cuestionario previo",
+      "quiz": [
+        {
+          "questionText": "¿Cuál es el primer paso del ciclo de vida de la ciencia de datos?",
+          "answerOptions": [
+            {
+              "answerText": "Análisis de datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Limpieza de datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Adquisición de datos y problema a resolver",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "Una vez alcanzado el siguiente paso del ciclo de vida de la ciencia de datos, no se puede volver a los pasos anteriores",
+          "answerOptions": [
+            {
+              "answerText": "Verdadero",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Falso",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Qué consideraciones hay que tener en cuenta a la hora de conservar los datos?",
+          "answerOptions": [
+            {
+              "answerText": "Limpieza de los datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Mantener la seguridad de los datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Las dos respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Ciclo de vida de la ciencia de datos - Cuestionario posterior",
+      "quiz": [
+        {
+          "questionText": "¿Qué paso del ciclo de vida de la ciencia de datos es más probable que produzca un modelo? ",
+          "answerOptions": [
+            {
+              "answerText": "Procesamiento",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Mantenimiento",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Captura",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Qué preguntas se haría un científico de datos en la fase de captura del ciclo de vida de la ciencia de datos?",
+          "answerOptions": [
+            {
+              "answerText": "¿Cuáles son las limitaciones?",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "¿Tienen sentido los datos?",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "¿Tiene sentido el modelo?",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Cuáles son las técnicas más comunes en la etapa de procesamiento?",
+          "answerOptions": [
+            {
+              "answerText": "Agrupación",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Inteligencia artificial",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Las dos respuestas anteriores",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Ciclo de vida de la ciencia de los datos - Análisis previo",
+      "quiz": [
+        {
+          "questionText": "Analizar puede referirse a analizar modelos o datos",
+          "answerOptions": [
+            {
+              "answerText": "Verdadero",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Falso",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Qué importancia tiene la exploración de los datos antes de utilizarlos en un modelo o en un análisis posterior?",
+          "answerOptions": [
+            {
+              "answerText": "Para eliminar los datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Identificar los desafíos en los datos",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Explorar los datos no es importante",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Qué hace un científico de datos cuando explora los datos?",
+          "answerOptions": [
+            {
+              "answerText": "Muestreo",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Visualización",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Las dos respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Ciclo de vida de la ciencia de los datos - Análisis cuestionario final",
+      "quiz": [
+        {
+          "questionText": "La visualización nunca forma parte del análisis exploratorio de datos (AED)",
+          "answerOptions": [
+            {
+              "answerText": "Verdadero",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Falso",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Qué funciones de Panda proporcionan un perfil de datos básico?",
+          "answerOptions": [
+            {
+              "answerText": "pandas()",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "isnull()",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "describe()",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Para qué sirve el muestreo de datos?",
+          "answerOptions": [
+            {
+              "answerText": "El muestreo es mejor que la elaboración de perfiles de datos cuando se buscan errores",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "El muestreo no sirve para nada",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "El muestreo se utiliza para analizar los datos de un gran conjunto de datos porque es difícil analizarlos todos",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Ciclo de vida de la ciencia de los datos - comunicación",
+      "quiz": [
+        {
+          "questionText": "Cuando se comunican datos a un público, es una buena práctica centrarse únicamente en las cifras y no en la historia.",
+          "answerOptions": [
+            {
+              "answerText": "Verdadero",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Falso",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Cuál es un ejemplo de comunicación bidireccional?",
+          "answerOptions": [
+            {
+              "answerText": "Cuando un presentador se dirige a un público y deja la palabra abierta para preguntas y comentarios.",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Cuando un líder lanza un mensaje de televisión o radio a sus electores.",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Cuando una marca se anuncia a los clientes potenciales.",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Cuando una persona hace una presentación ante un público, y éste no proporciona ninguna información, ¿quién actúa como receptor de la información?",
+          "answerOptions": [
+            {
+              "answerText": "El presentador",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "La audiencia",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Miembros específicos de la audiencia",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Ciclo de vida de la ciencia de los datos - comunicación cuestionario final",
+      "quiz": [
+        {
+          "questionText": "A la hora de comunicar datos, los colores pueden servir para evocar emociones en el público.",
+          "answerOptions": [
+            {
+              "answerText": "Verdadero",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Falso",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "De las siguientes opciones, ¿cuál es la explicación más significativa del progreso anual de una empresa?",
+          "answerOptions": [
+            {
+              "answerText": "Hemos tenido un año excelente. Nuestros usuarios han crecido un 30%, nuestros ingresos han aumentado un 21% y hemos incorporado 100 nuevos miembros al equipo.",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Hemos tenido un gran año. Nuestros usuarios han crecido enormemente, nuestros ingresos han aumentado mucho e incluso hemos incorporado varios miembros nuevos al equipo en todas las divisiones.",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Nuestro año de progreso fue simplemente fenomenal. No puedo exagerar el aumento que hemos tenido con el crecimiento de nuestros usuarios, nuestros ingresos o nuestro equipo.",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "A la hora de comunicar datos a una audiencia ejecutiva, ¿cuál sería una estrategia aceptable?",
+          "answerOptions": [
+            {
+              "answerText": "Profundiza en los pequeños detalles y dedique menos tiempo a la importancia de los datos.",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Concentrate principalmente en la importancia de los datos y en los próximos pasos recomendados sobre la base de los datos.",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Explica todo el contexto e intente hacer una lluvia de ideas sobre posibles soluciones con los ejecutivos.",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Ciencia de los datos en la naturaleza",
+      "quiz": [
+        {
+          "questionText": "La ciencia de los datos puede utilizarse en muchos sectores, como",
+          "answerOptions": [
+            {
+              "answerText": "Finanzas y Humanidades",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Agricultura y manufactura",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Las dos respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "La ciencia de los datos en el contexto de la investigación puede centrarse en:",
+          "answerOptions": [
+            {
+              "answerText": "oportunidades de innovación",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "gestión de errores",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "impulsar las ventas",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "El 'Estudio de los matices de género' se centró en",
+          "answerOptions": [
+            {
+              "answerText": "transformar el discurso de género",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "los sesgos inherentes al análisis facial",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Ninguna de las respuestas anteriores",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Ciencia de los datos en la naturaleza - Cuestionario final",
+      "quiz": [
+        {
+          "questionText": "Las humanidades digitales son una práctica que combina los métodos informáticos con la investigación humanística",
+          "answerOptions": [
+            {
+              "answerText": "Verdadera",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Falso",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Utilizar la ciencia de los datos para la investigación de la sostenibilidad",
+          "answerOptions": [
+            {
+              "answerText": "Estudiar la deforestación",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Estudio de los datos del cambio climático",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Las dos respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "En finanzas, se puede utilizar la ciencia de los datos para",
+          "answerOptions": [
+            {
+              "answerText": "Investigación sobre sus servicios financieros",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Personalizar las opciones de fondos de inversión en función del tipo de cliente",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Las dos respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 0,
+      "title": "Definición de la ciencia de los datos - Cuestionario previo",
+      "quiz": [
+        {
+          "questionText": "¿Por qué la palabra _Ciencia_ en Ciencia de Datos?",
+          "answerOptions": [
+            {
+              "answerText": "Utiliza métodos científicos para analizar los datos",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Sólo las personas con títulos académicos pueden entenderlo",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Para que suene bien",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "El aprendizaje de la ciencia de los datos sólo es útil para los desarrolladores",
+          "answerOptions": [
+            {
+              "answerText": "Verdadero",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Falso",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Qué necesitamos para demostrar que los jugadores de baloncesto son más altos que la gente media?",
+          "answerOptions": [
+            {
+              "answerText": "Recopilar datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Conocer algo de probabilidad y estadística",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Las dos respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Definir la ciencia de los datos: Cuestionario final",
+      "quiz": [
+        {
+          "questionText": "¿Qué áreas están estrechamente relacionadas con la ciencia de los datos?",
+          "answerOptions": [
+            {
+              "answerText": "Inteligencia Artificial",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Aprendizaje automático",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Las dos respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Cuál de los siguientes representaciones es un ejemplo de datos no estructurados?",
+          "answerOptions": [
+            {
+              "answerText": "Una lista de alumnos en clase",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Una colección de ensayos de estudiantes",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Un gráfico de amigos de usuarios en redes sociales",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Cuál es el objetivo principal de la ciencia de datos?",
+          "answerOptions": [
+            {
+              "answerText": "recoger datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "procesar los datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "ser capaz de tomar decisiones basadas en datos",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Ética - Cuestionario previo",
+      "quiz": [
+        {
+          "questionText": "¿Qué es la consideración de la ética en la Ciencia de los Datos?",
+          "answerOptions": [
+            {
+              "answerText": "Recogida de datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Diseño de algoritmos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Todas las anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Cuáles de los siguientes elementos forman parte de los desafíos éticos?",
+          "answerOptions": [
+            {
+              "answerText": "La transparencia",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "La privacidad",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "La seguridad y fiabilidad",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "La ética de los datos también incluye la IA y los algoritmos de aprendizaje automático",
+          "answerOptions": [
+            {
+              "answerText": "Verdadero",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Falso, están separados",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Ética - Cuestionario final",
+      "quiz": [
+        {
+          "questionText": "¿Cuál es la principal diferencia entre la ética y la ética aplicada?",
+          "answerOptions": [
+            {
+              "answerText": "La ética aplicada es un tipo específico de ética",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "La ética aplicada no es un término real",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "La ética aplicada es el proceso de encontrar y corregir problemas éticos",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Cuál es la diferencia entre reglamento de ética y principios de ética?",
+          "answerOptions": [
+            {
+              "answerText": "La normativa ética se centra en la ética habitual",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "No hay ninguna diferencia",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Los principios éticos no están relacionados con una ley concreta, mientras que los reglamentos sí.",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Cuáles son los principios y prácticas éticas reales que se pueden aplicar?",
+          "answerOptions": [
+            {
+              "answerText": "Sesgo de recogida",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Cumplimiento de la normativa ética",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Las dos respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Definición de datos - Cuestionario previo",
+      "quiz": [
+        {
+          "questionText": "¿Cuáles de estos datos podrían ser cuantitativos?",
+          "answerOptions": [
+            {
+              "answerText": "Fotos de perros",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Reseñas de hoteles",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Notas o calificaciones de estudiantes",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Cuáles de estos datos podrían ser datos cualitativos?",
+          "answerOptions": [
+            {
+              "answerText": "Lista de salarios de los empleados",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Reseñas de hoteles",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Notas o calificaciones de estudiantes",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Cuál es el objetivo principal de la clasificación de datos?",
+          "answerOptions": [
+            {
+              "answerText": "El almacenamiento correcto de datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Dar un nombre propio a los datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Saber cuál es el mejor método para organizarlo para la legibilidad y el análisis",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Definición de los datos - Cuestionario final",
+      "quiz": [
+        {
+          "questionText": "El profesor está revisando el número de respuestas correctas de los alumnos, ¿de qué tipo de datos se trata?",
+          "answerOptions": [
+            {
+              "answerText": "Datos cualitativos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Datos cuantitativos",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Las dos respuestas anteriores",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Una empresa está recogiendo encuestas de sus clientes para mejorar sus productos. ¿De qué tipo de fuente de datos se trata?",
+          "answerOptions": [
+            {
+              "answerText": "Primario",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Secundario",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Terciario",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Un estudiante está recogiendo datos mediante consultas. ¿Qué fuente de datos podría ser?",
+          "answerOptions": [
+            {
+              "answerText": "Archivos locales",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "API",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Base de datos",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Estadística y Probabilidad - Cuestionario previo",
+      "quiz": [
+        {
+          "questionText": "¿Por qué la estadística y la probabilidad son importantes para la ciencia de los datos?",
+          "answerOptions": [
+            {
+              "answerText": "Porque no se puede operar con datos sin saber matemáticas",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Porque la ciencia de los datos es una ciencia y tiene una sólida base formal",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Porque queremos evitar que la gente sin formación se dedique a la ciencia de los datos",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Puedes sacar cara 10 veces seguidas al lanzar una moneda?",
+          "answerOptions": [
+            {
+              "answerText": "Sí",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "No",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Al lanzar un dado, ¿cuál es la probabilidad de obtener un número par?",
+          "answerOptions": [
+            {
+              "answerText": "1/2",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "1/3",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Es imposible de predecir",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Estadística y Probabilidad - Cuestionario final",
+      "quiz": [
+        {
+          "questionText": "Queremos demostrar que los jugadores de baloncesto son más altos que la gente media. Hemos recogido las estaturas de 20 personas de ambos grupos. ¿Qué tenemos que hacer?",
+          "answerOptions": [
+            {
+              "answerText": "comparar la media",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Recoger más datos, ¡20 no es suficiente!",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "utilizar la prueba t de Student",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Cómo podemos demostrar que los ingresos de una persona dependen del nivel de educación?",
+          "answerOptions": [
+            {
+              "answerText": "calcular el coeficiente de correlación",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "dividir en grupos con y sin estudios y calcular las medias",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "utilizar la prueba t de Studen",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Lanzamos los dados 100 veces y calculamos el valor medio. ¿Cuál sería la distribución del resultado?",
+          "answerOptions": [
+            {
+              "answerText": "uniforme",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "normal",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "ninguna de las respuestas anteriores",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

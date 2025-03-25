@@ -3,12 +3,13 @@ interface Props {
   id: number;
   title: string;
   lang: string;
+  curriculum: string;
 }
 
-const { id, title, lang } = Astro.props;
+const { id, title, lang, curriculum } = Astro.props;
 ---
 
-<a href={`/${lang}/quiz/${id}`} class="block">
+<a href={`/${lang}/${curriculum}/quiz/${id}`} class="block">
   <div class="p-3">
     <p class="text-xl font-semibold text-gray-800 underline">{title}</p>
   </div>

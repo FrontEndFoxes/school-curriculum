@@ -1,0 +1,48 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="404 - Page Not Found" lang="en">
+  <div class="error-page">
+    <h1>Sorry, page not found</h1>
+    <p>This page doesn't exist. Please go home!</p>
+  </div>
+</Layout>
+
+<style>
+  .error-page {
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .error-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .error-page p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .error-page ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .error-page li {
+    display: inline-block;
+    margin: 0 0.5rem;
+  }
+
+  .error-page .link {
+    text-decoration: none;
+    color: #0070f3;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+
+  .error-page .link:hover {
+    color: #0056b3;
+  }
+</style>

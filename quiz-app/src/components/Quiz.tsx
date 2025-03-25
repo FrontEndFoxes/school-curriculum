@@ -61,7 +61,7 @@ export default function Quiz({ questions, lang, title, completeText, errorText }
           {percentage}%
         </motion.div>
         <a
-          href={`/${lang}`}
+          href={`/`}
           className="bg-indigo-600 text-white w-20 m-auto px-6 py-2 rounded-lg hover:bg-indigo-700 flex items-center gap-2"
         >
           <MdHome size={24} />

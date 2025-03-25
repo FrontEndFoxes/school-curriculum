@@ -1,0 +1,66 @@
+---
+import Layout from "../../../../layouts/Layout.astro";
+import Quiz from "../../../../components/Quiz";
+import type { QuizData } from "../../../../types/quiz";
+import { langs, curricula } from "../../../../i18n/translations";
+
+export async function getStaticPaths() {
+  const paths = [];
+
+  // Generate paths for all combinations of languages, curricula, and quizzes
+  for (const lang of langs) {
+    for (const curriculum of curricula) {
+      try {
+        const quizData: QuizData = await import(
+          `../../../../i18n/${curriculum}/${lang}.json`
+        );
+
+        // Generate a path for each quiz in the curriculum
+        for (const quiz of quizData.quizzes) {
+          paths.push({
+            params: { lang, curriculum, id: quiz.id.toString() },
+            props: { quizData, curriculum }, // Pass quizData and curriculum as props
+          });
+        }
+      } catch (error) {
+        console.error(
+          `Error loading quizData for ${curriculum} in ${lang}:`,
+          error
+        );
+      }
+    }
+  }
+
+  console.log("Generated paths:", paths);
+  return paths;
+}
+
+const { lang, id, curriculum } = Astro.params; // Destructure curriculum from params
+const { quizData } = Astro.props; // Get quizData from props
+
+console.log("Props received:", { curriculum, quizData });
+console.log("Quiz ID:", id);
+
+// Find the quiz by ID
+const quiz = quizData?.quizzes?.find((q) => q.id.toString() === id.toString());
+
+if (!quiz) {
+  console.error("Quiz not found:", { id, quizzes: quizData?.quizzes });
+  throw new Error(`Quiz with ID "${id}" not found.`);
+}
+---
+
+<Layout title={quiz?.title || ""} lang={lang} curriculum={curriculum}>
+  {
+    quiz && (
+      <Quiz
+        client:load
+        questions={quiz.quiz}
+        title={quiz.title}
+        lang={lang}
+        completeText={quizData.complete}
+        errorText={quizData.error}
+      />
+    )
+  }
+</Layout>

@@ -11,29 +11,42 @@ import { languages } from "../i18n/translations";
 
 <nav class="bg-white shadow-md p-4">
   <div class="max-w-7xl mx-auto flex justify-between items-center">
-    <a href={`/${lang}`} class="text-xl font-bold text-indigo-600">
-      {title}
-    </a>
+    <div class="flex items-center space-x-2">
+      <!-- Home Icon -->
+      <a href={`/${lang}`} class="text-indigo-600 flex items-center space-x-2">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3 9.75L12 3l9 6.75M4.5 10.5V21h15v-10.5M9 21v-6h6v6"></path>
+        </svg>
+        <span class="text-xl font-bold">{title}</span>
+      </a>
+    </div>
     <div class="space-x-4">
-      <select
-        class="border border-gray-300 rounded px-2 py-1"
-        value={lang}
-        
-      >
+      <select class="border border-gray-300 rounded px-2 py-1" value={lang}>
         {
           Object.entries(languages).map(([languageCode, label]) => (
-            
             <option selected={languageCode == lang} value={languageCode}>
               {label}
             </option>
-        
-      ))
+          ))
         }
       </select>
       <script is:inline>
-        document.querySelector('select').addEventListener('change', (event) => {
+        document.querySelector("select").addEventListener("change", (event) => {
           const lang = event.target.value;
-          const currentPath = window.location.pathname.replace(/^\/[a-z]{2}(\/|$)/, "/");
+          const currentPath = window.location.pathname.replace(
+            /^\/[a-z]{2}(\/|$)/,
+            "/"
+          );
 
           window.location.href = `/${lang}${currentPath}`;
         });

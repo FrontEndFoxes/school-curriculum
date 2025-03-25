@@ -1,0 +1,48 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import QuizLinks from "../../../components/QuizLinks.astro"; // Import the QuizLink component
+import { langs, curricula, getTranslation } from "../../../i18n/translations";
+import type { Language, Curriculum } from "../../../i18n/translations";
+
+export function getStaticPaths() {
+  const paths = [];
+
+  // Generate paths for all combinations of languages and curricula
+  for (const lang of langs) {
+    for (const curriculum of curricula) {
+      paths.push({
+        params: { lang, curriculum },
+      });
+    }
+  }
+
+  return paths;
+}
+
+// Destructure `lang` and `curriculum` from `Astro.params`
+const { lang, curriculum } = Astro.params;
+
+// Fetch the quizzes for the selected curriculum and language
+const t = await getTranslation(lang as Language, curriculum as Curriculum);
+
+// Sort quizzes by their numeric `id`
+const quizzes = (t.quizzes || []).sort((a, b) => a.id - b.id);
+---
+
+<Layout title={t.title} lang={lang} curriculum={curriculum}>
+  <div>
+    <p>{t.description}</p>
+    <div class="quiz-links">
+      {
+        quizzes.map((quiz) => (
+          <QuizLinks
+            lang={lang}
+            curriculum={curriculum}
+            id={quiz.id}
+            title={quiz.title}
+          />
+        ))
+      }
+    </div>
+  </div>
+</Layout>

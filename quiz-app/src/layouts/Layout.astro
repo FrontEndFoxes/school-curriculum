@@ -1,14 +1,23 @@
 ---
 import Header from "../components/Header.astro";
-import { getTranslation, type Language } from "../i18n/translations";
+import {
+  getTranslation,
+  type Language,
+  type Curriculum,
+} from "../i18n/translations";
 
 interface Props {
   title?: string;
   lang: string;
+  curriculum?: string;
 }
 
-const { title = "Quiz App", lang } = Astro.props;
-const t = getTranslation(lang as Language);
+const { title = "Quiz App", lang, curriculum } = Astro.props;
+
+// Ensure both `lang` and `curriculum` are passed to `getTranslation`
+const t = curriculum
+  ? await getTranslation(lang as Language, curriculum as Curriculum)
+  : { title: "Quiz App" }; // Fallback if curriculum is not provided
 ---
 
 <!doctype html>
