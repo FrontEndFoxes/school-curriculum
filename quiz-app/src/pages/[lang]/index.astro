@@ -1,5 +1,6 @@
 ---
 import Layout from "../../layouts/Layout.astro";
+import { curricula } from "../../i18n/translations";
 
 export function getStaticPaths() {
   return [
@@ -9,29 +10,48 @@ export function getStaticPaths() {
     { params: { lang: "it" } },
     { params: { lang: "ja" } },
     { params: { lang: "ko" } },
+    { params: { lang: "ptbr" } },
+    { params: { lang: "ar" } },
+    { params: { lang: "zhcn" } },
+    { params: { lang: "bn" } },
   ];
 }
 
 const { lang } = Astro.params;
 
-const curricula = [
-  { id: "ai", title: "Artificial Intelligence" },
-  { id: "ds", title: "Data Science" },
-  { id: "web", title: "Web Development" },
-  { id: "iot", title: "Internet of Things" },
-  { id: "ml", title: "Machine Learning" },
-];
+// Dynamically import quiz data for all curricula in the current language
+const quizData = await Promise.all(
+  curricula.map(async (curriculum) => {
+    try {
+      const data = await import(`../../i18n/${curriculum}/${lang}.json`);
+      return { id: curriculum, title: data.title };
+    } catch (error) {
+      console.error(`Error loading data for ${curriculum} in ${lang}:`, error);
+      return {
+        id: curriculum,
+        title: "Sorry, this curriculum has not yet been translated!",
+      };
+    }
+  })
+);
 ---
 
 <Layout title="Quizzes" lang={lang}>
   <div>
     <div class="curriculum-cards">
       {
-        curricula.map((curriculum) => (
-          <a href={`/${lang}/${curriculum.id}`} class="card">
-            <h3>{curriculum.title}</h3>
-          </a>
-        ))
+        quizData.map((curriculum) =>
+          curriculum.title ===
+          "Sorry, this curriculum has not yet been translated!" ? (
+            <div class="card untranslated">
+              <h3>{curriculum.title}</h3>
+            </div>
+          ) : (
+            <a href={`/${lang}/${curriculum.id}`} class="card">
+              <h3>{curriculum.title}</h3>
+            </a>
+          )
+        )
       }
     </div>
   </div>
@@ -82,5 +102,22 @@ const curricula = [
     box-shadow:
       0 4px 6px rgba(0, 0, 0, 0.1),
       0 1px 3px rgba(0, 0, 0, 0.06);
+  }
+
+  /* Styles for untranslated cards */
+  .card.untranslated {
+    background: #fff;
+    color: #0070f3;
+    cursor: not-allowed;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .card.untranslated h3 {
+    color: #0070f3;
+  }
+
+  .card.untranslated:hover {
+    transform: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 </style>

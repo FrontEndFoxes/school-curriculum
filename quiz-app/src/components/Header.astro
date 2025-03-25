@@ -43,11 +43,14 @@ import { languages } from "../i18n/translations";
       <script is:inline>
         document.querySelector("select").addEventListener("change", (event) => {
           const lang = event.target.value;
+      
+          // Update the regex to match language codes of varying lengths
           const currentPath = window.location.pathname.replace(
-            /^\/[a-z]{2}(\/|$)/,
+            /^\/[a-z]{2,5}(\/|$)/,
             "/"
           );
-
+      
+          // Redirect to the new language path
           window.location.href = `/${lang}${currentPath}`;
         });
       </script>
