@@ -1,5 +1,6 @@
 ---
 import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
 import {
   getTranslation,
   type Language,
@@ -34,5 +35,6 @@ const t = curriculum
     <main class="max-w-7xl mx-auto p-4">
       <slot />
     </main>
+    <Footer />
   </body>
 </html>
