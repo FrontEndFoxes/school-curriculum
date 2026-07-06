@@ -30,9 +30,9 @@ const t = curriculum
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
   </head>
-  <body class="min-h-screen bg-gray-100">
+  <body class="min-h-screen bg-gray-100 flex flex-col">
     <Header lang={lang} title={t.title} />
-    <main class="max-w-7xl mx-auto p-4">
+    <main class="max-w-7xl mx-auto p-4 flex-1 w-full">
       <slot />
     </main>
     <Footer />
